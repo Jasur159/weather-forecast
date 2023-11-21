@@ -77,10 +77,10 @@ form .btn {
   text-align: center;
 }
 .details div {
+    color: white;
   font-size: 16px;
   font-weight: 600;
   width: 100px;
-  background-color: #ccc;
   padding: 1px;
 }
 
