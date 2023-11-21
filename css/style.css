@@ -85,6 +85,9 @@ form .btn {
 }
 
 @media screen and (max-width: 500px) {
+    .container{
+        max-width: 500px;
+    }
   .details {
     gap: 30px;
   }
@@ -92,17 +95,11 @@ form .btn {
     width: 100%;
   }
   form {
-    max-width: 100%;
     gap: 10px;
   }
-  .text_input #city_input {
-    width: 100%;
-  }
+ 
 }
-@media screen and (max-width: 380px) {
-  .container {
-    max-width: 90%;
-  }
+@media screen and (max-width: 400px) {
   form {
     flex-direction: column;
     gap: 25px;
