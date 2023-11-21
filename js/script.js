@@ -25,7 +25,6 @@ q=${cityValue}&appid=${apikey}&units=metric`);
     const description = data.weather[0].description;
     const icon = data.weather[0].icon;
     const details = [
-      `Feels like: ${Math.round(data.main.feels_like)} `,
       `Humidity: ${data.main.humidity}%`,
       `Wind Speed : ${data.wind.speed} m/s`,
     ];
