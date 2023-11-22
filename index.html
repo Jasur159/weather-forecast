@@ -7,24 +7,30 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <video
+      loop
+      autoplay
+      muted
+      src="./video/production_id_3786014 (1080p).mp4"
+    ></video>
     <div class="container">
       <h1>Weather App</h1>
       <form id="form">
         <div class="text_input">
           <input type="text" placeholder="Enter city" id="city_input" />
         </div>
-        <div class="button box">
+        <div class="button_box">
           <input type="submit" class="btn" value="get weather" />
         </div>
       </form>
       <div id="weather_data">
+        <div class="temperature">-- °C</div>
         <div class="icon">
           <img
             src="http://openweathermap.org/img/wn/01d.png"
             alt="weather icon"
           />
         </div>
-        <div class="temperature">22 °C</div>
         <div class="description">Sunny</div>
         <div class="details">
           <div>Humidity: 40%</div>
